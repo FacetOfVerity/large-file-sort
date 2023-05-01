@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileGenerator", "FileGenerator\FileGenerator.csproj", "{7A596591-F740-4E7F-ADBD-434E25BB68BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSorter", "FileSorter\FileSorter.csproj", "{3C4B43FF-B824-400A-99A5-CEE5E084B956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{8903551D-04DA-411A-A2C1-CCCA9665A71E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileGenerator.App", "FileGenerator.App\FileGenerator.App.csproj", "{AFFC5A58-7A41-4236-9557-C33B82402C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSorter.App", "FileSorter.App\FileSorter.App.csproj", "{7CFA2CD6-0B7A-43F2-B223-5689E8028E37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{8B501397-995D-4587-ADA2-D45B6DEBFD1F}"
+	ProjectSection(SolutionItems) = preProject
+		..\docker\docker-compose.yml = ..\docker\docker-compose.yml
+		..\README.md = ..\README.md
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A596591-F740-4E7F-ADBD-434E25BB68BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A596591-F740-4E7F-ADBD-434E25BB68BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A596591-F740-4E7F-ADBD-434E25BB68BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A596591-F740-4E7F-ADBD-434E25BB68BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4B43FF-B824-400A-99A5-CEE5E084B956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4B43FF-B824-400A-99A5-CEE5E084B956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4B43FF-B824-400A-99A5-CEE5E084B956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4B43FF-B824-400A-99A5-CEE5E084B956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8903551D-04DA-411A-A2C1-CCCA9665A71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8903551D-04DA-411A-A2C1-CCCA9665A71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8903551D-04DA-411A-A2C1-CCCA9665A71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8903551D-04DA-411A-A2C1-CCCA9665A71E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFFC5A58-7A41-4236-9557-C33B82402C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFC5A58-7A41-4236-9557-C33B82402C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFC5A58-7A41-4236-9557-C33B82402C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFC5A58-7A41-4236-9557-C33B82402C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFA2CD6-0B7A-43F2-B223-5689E8028E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFA2CD6-0B7A-43F2-B223-5689E8028E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFA2CD6-0B7A-43F2-B223-5689E8028E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFA2CD6-0B7A-43F2-B223-5689E8028E37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
