@@ -1,21 +1,22 @@
 # large-file-sort
 
 ### Problem description
-The input is a large text file, where each line is a Number. String For example:
-415. Apple
-30432. Something something something
-1. Apple
-32. Cherry is the best
-2. Banana is yellow
+The input is an extralarge text file, where each line is a Number. String For example:
+
+<li>415. Apple</li>
+<li>30432. Something something something</li>
+<li>1. Apple</li>
+<li>32. Cherry is the best</li>
+<li>2. Banana is yellow</li>
 
 Both parts can be repeated within the file. You need to get another file as output,
 where all the lines are sorted. Sorting Criteria: String part is compared first, 
 if it matches then Number. Those. in the example above it should be:
-1. Apple
-415. Apple
-2. Banana is yellow
-32. Cherry is the best
-30432. Something something something
+<li>1. Apple</li>
+<li>415. Apple</li>
+<li>2. Banana is yellow</li>
+<li>32. Cherry is the best</li>
+<li>30432. Something something something</li>
 
 ### Solution description
 FileGenerator.App generates text file with configured number of lines.
